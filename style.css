@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    width: 1150px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+/*  Header  */
+.title{
+    border-top: 5px solid #2879B0;
+    margin-top: 20px;
+}
+.head {
+    padding: 15px 0;
+}
+.header-left{
+    width: 30%;
+}
+.header-left a {
+    color: #0017ff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: -10px 0  10px 0;
+    display: inline-block;
+}
+.header-right{
+    width: 70%;
+}
+.header-right nav {
+    margin-top: 7px;
+    text-align: end;
+}
+.header-right nav a {
+    padding: 15px 10px;
+    color: #00000076;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*  Banner  */
+.banner{
+    color: #fff;
+}
+.banner{
+    background-image: url(bbb.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 235px 0;
+}
+.banner h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.banner h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.banner a {
+    text-decoration: none;
+    display: inline-block;
+    background: #2879B0;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/*  Article  */
+.article{
+    padding: 50px 0;
+}
+.article-left{
+    width: 50%;
+}
+.article-right{
+    width: 50%;
+}
+article h2{
+    margin: 12px 0;
+}
+article p {
+    font-size: 15px;
+}
+
+
+/*  contact  */
+.contact{
+    background: #F5F5F5;
+    padding: 50px 0;
+}
+.contact-top{}
+.contact-top h1{
+    margin-bottom: 25px;
+}
+.contact-bottom{}
+.contact-left{
+    width: 50%;
+}
+.contact-left details{
+    cursor: pointer;
+}
+.contact-right{
+    width: 50%;
+}
+.contact-right input {
+    width: 75%;
+    margin: 10px 0;
+}
+.contact-right input:nth-child(4) {
+    width: 15%;
+    display: block;
+}
+
+/*  footer  */
+.footer{
+    background: #000;
+    padding: 20px 0;
+}
+.footer p{
+    color: #ffff;
+}
